@@ -1,0 +1,117 @@
+.logo{
+    height:30px;
+    width:60px;
+    margin-left:30px;
+    margin-right:5px;
+}
+.navlinks{
+   float:right;
+   margin-left:auto;
+   margin-right:100px;
+}
+.title{
+    margin-left:5px;
+    font-family: Open Sans;
+}
+.navbar1{
+    box-shadow: #ccccff 0px 2px 4px;
+    
+}
+h2{
+    
+    font-size:40px;
+    color:#443662;
+}
+.card{
+    padding:50px;
+    margin:45px 45px 15px 45px;
+    
+    float:left;
+    border-radius:5px;
+}
+
+.dsclogo{
+    margin-top:80px;
+    margin-left:45px;
+   
+    
+
+}
+.dsclogo1{ height:270px;
+    width:270px;}
+
+    .blue{
+        color:#1a75ff;
+        font-size:20px;
+    }
+
+a{color: #00b359}
+
+.footer{
+    margin-top:35px;
+    float:left;
+}
+.block1{
+    padding:20px;
+    height:auto;
+    width:auto;
+    margin:auto;
+}
+.wave{
+    
+z-index:-1;
+}
+
+.boxes{
+    position:relative;
+    display:flex;
+    flex-wrap: wrap;
+float:center;
+    flex-direction: row;
+    max-width:1100px; 
+    margin:auto;
+    float:center;
+}
+.box{
+    height:130px;
+    width:130px;
+    margin:20px;
+    border-radius:5px;
+    padding:10px;
+    background-color: #ffff;
+}
+
+.background{
+    background-color: #0099ff;
+    height:auto;
+}
+
+footer{
+    height:250px;
+    background-color: #333333;
+}
+img{
+    height:90px;
+    width:90px;
+    margin-left:13px;
+}
+
+span{
+    display:inline-block;
+    text-align:center;
+    font-size:13px;
+    margin-left:20px;
+
+}
+.box:hover{
+    transform:scale(1.1) ;
+}
+
+    
+    @media screen and (max-width: 500px){
+        .dsclogo1{
+            position: relative;
+            float:center;
+        }
+        
+    }
