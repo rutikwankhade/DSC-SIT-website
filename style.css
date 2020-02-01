@@ -25,10 +25,11 @@ h2{
 .card{
     padding:50px;
     margin:45px 45px 15px 45px;
-    box-shadow: #f2f2f2 0px 0px 15px;
     float:left;
     border-radius:5px;
+    box-shadow:#f2f2f2 10px 10px;
 }
+.back{background-color:#f2f2f2;}
 
 .dsclogo{
     margin-top:80px;
@@ -80,6 +81,7 @@ float:center;
     border-radius:5px;
     padding:10px;
     background-color: #ffff;
+    box-shadow:  #005ce6 5px 5px;
 }
 
 .background{
@@ -88,15 +90,17 @@ float:center;
 }
 
 footer{
-    height:200px;
+    height:50px;
     background-color: #333333;
-    margin-top:300px;
     color:#ffff;
     font-size:13px;
+    margin-top:300px;
+
     
 }
 .credits{
-    
+    margin-top:20px;
+    padding:10px;
     text-align: center;
 }
 .tech{
@@ -127,6 +131,7 @@ span{
     background-color: #f2f2f2;
     padding:5px;
     margin:20px;
+    border-radius:5px;
 }
 .member-img{
     height:100px;
@@ -157,9 +162,14 @@ span{
     width:400px;
     margin-top:300px;
 }
+.img-ill3{float:left;
+height:300px;
+width:400px;
+margin-top:40px;
+}
 
 .space{
-    height:300px;
+    height:200px;
 }
 .about{
     margin:100px 0px 0px 100px;
@@ -169,11 +179,30 @@ span{
 .logo2{
     height:100px;
     width:200px;
-    margin:50px;
+    margin:20px 0px 0px 65px;
+}
+.logo3{
+    height:80px;
+    width:80px;
+    margin-top:20px;
 }
 
+.events{
+    display:flex;
+    flex-direction: column;
+    float:right;
 
-
+    
+}
+.event{
+    height:150px;
+    width:600px;
+    background-color: #ffffff;
+    margin:40px 40px 0px 0px;
+    border-radius:5px;
+    box-shadow:#cce0ff 0px 5px 5px;
+    border:solid 1px #0099ff
+}
 
 
 
@@ -187,16 +216,24 @@ span{
 
 
     @media screen and (max-width: 500px){
+        
         .dsclogo1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             
-            margin:auto;
-            position: relative;
-            float:center;
-        }
+          }
+
+
         .boxes{
-            margin-left:30px;
+            margin-left:auto;
+            margin-right:auto;
+            max-width:400px;
         }
         .about{
             margin:45px 20px 20px 20px;
+        }
+        footer{
+            margin-top:700px;
         }
     }
