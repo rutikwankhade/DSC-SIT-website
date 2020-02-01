@@ -25,7 +25,7 @@ h2{
 .card{
     padding:50px;
     margin:45px 45px 15px 45px;
-    
+    box-shadow: #f2f2f2 0px 0px 15px;
     float:left;
     border-radius:5px;
 }
@@ -38,6 +38,7 @@ h2{
 
 }
 .dsclogo1{ height:270px;
+    
     width:270px;}
 
     .blue{
@@ -87,10 +88,18 @@ float:center;
 }
 
 footer{
-    height:250px;
+    height:200px;
     background-color: #333333;
+    margin-top:300px;
+    color:#ffff;
+    font-size:13px;
+    
 }
-img{
+.credits{
+    
+    text-align: center;
+}
+.tech{
     height:90px;
     width:90px;
     margin-left:13px;
@@ -107,11 +116,87 @@ span{
     transform:scale(1.1) ;
 }
 
+  h3{
+      margin-left:100px;
+      margin-top:35px;
+  }  
+
+.member{
+    height:160px;
+    width:140px;
+    background-color: #f2f2f2;
+    padding:5px;
+    margin:20px;
+}
+.member-img{
+    height:100px;
+    width:100px;
+    margin-left:16px;
+}
+.icons{
+    height:16px;
+    width:16px;
+    margin-left:5px;
     
+}
+.allicons{
+    display:inline-block;
+    margin-left:25px;
+}
+.img-ill{
+    float:right;
+    z-index:-1;
+    
+    
+}
+.img-ill2{
+    position: absolute;
+    z-index:-1;
+    float:right;
+    height:300px;
+    width:400px;
+    margin-top:300px;
+}
+
+.space{
+    height:300px;
+}
+.about{
+    margin:100px 0px 0px 100px;
+
+}
+
+.logo2{
+    height:100px;
+    width:200px;
+    margin:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     @media screen and (max-width: 500px){
         .dsclogo1{
+            
+            margin:auto;
             position: relative;
             float:center;
         }
-        
+        .boxes{
+            margin-left:30px;
+        }
+        .about{
+            margin:45px 20px 20px 20px;
+        }
     }
