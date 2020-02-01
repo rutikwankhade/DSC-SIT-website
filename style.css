@@ -190,18 +190,21 @@ margin-top:40px;
 .events{
     display:flex;
     flex-direction: column;
-    float:right;
+    float:center;
+    margin:auto;
+    max-width:600px;
 
     
 }
 .event{
-    height:150px;
+    height:180px;
     width:600px;
     background-color: #ffffff;
     margin:40px 40px 0px 0px;
     border-radius:5px;
-    box-shadow:#cce0ff 0px 5px 5px;
-    border:solid 1px #0099ff
+    box-shadow:#cce0ff 5px 5px 10px;
+    padding:20px;
+    
 }
 
 
@@ -236,4 +239,9 @@ margin-top:40px;
         footer{
             margin-top:700px;
         }
+        .events{
+            max-width:350px;
+
+        }
+        .event{max-width:350px; }
     }
