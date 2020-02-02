@@ -1,24 +1,15 @@
 .logo{
     height:30px;
     width:60px;
-    margin-left:30px;
-    margin-right:5px;
+    margin:0px 5px 0px 30px;
 }
 .navlinks{
    float:right;
    margin-left:auto;
    margin-right:100px;
 }
-.title{
-    margin-left:5px;
-    font-family: Open Sans;
-}
-.navbar1{
-    box-shadow: #ccccff 0px 2px 4px;
-    
-}
+.navbar1{ box-shadow: #ccccff 0px 2px 4px; }
 h2{
-    
     font-size:40px;
     color:#443662;
 }
@@ -27,24 +18,23 @@ h2{
     margin:45px 45px 15px 45px;
     float:left;
     border-radius:5px;
-    box-shadow:#f2f2f2 10px 10px;
+    box-shadow:#f2f2f2 5px 10px 10px;
+}
+.img-ill2{
+    position: absolute;
+    z-index:-1;
+    float:right;
+    margin-top:300px;
 }
 .back{background-color:#f2f2f2;}
 
 .dsclogo{
     margin-top:80px;
     margin-left:45px;
-   
-    
-
-}
-.dsclogo1{ 
-    /* hj */
-    }
-
-    .blue{
-        color:#1a75ff;
-        font-size:20px;
+   }
+.blue{
+      color:#1a75ff;
+      font-size:20px;
     }
 
 a{color: #00b359}
@@ -59,20 +49,16 @@ a{color: #00b359}
     width:auto;
     margin:auto;
 }
-.wave{
-    
-z-index:-1;
-}
+.wave{z-index:-1;}
 
 .boxes{
     position:relative;
     display:flex;
     flex-wrap: wrap;
-float:center;
+    float:center;
     flex-direction: row;
     max-width:1100px; 
     margin:auto;
-    float:center;
 }
 .box{
     height:130px;
@@ -150,15 +136,8 @@ span{
 .img-ill{
     float:right;
     z-index:-1;
-    
-    
-}
-.img-ill2{
-    position: absolute;
-    z-index:-1;
-    float:right;
-    margin-top:300px;
-}
+   }
+
 .img-ill3{float:left;
 height:300px;
 width:400px;
@@ -244,4 +223,7 @@ margin-top:40px;
 
         }
         .event{max-width:350px; }
+        .navlinks{margin-right:150px;
+            
+        }
     }
