@@ -38,9 +38,9 @@ h2{
     
 
 }
-.dsclogo1{ height:270px;
-    
-    width:270px;}
+.dsclogo1{ 
+    /* hj */
+    }
 
     .blue{
         color:#1a75ff;
@@ -139,8 +139,7 @@ span{
     margin-left:16px;
 }
 .icons{
-    height:16px;
-    width:16px;
+
     margin-left:5px;
     
 }
@@ -158,8 +157,6 @@ span{
     position: absolute;
     z-index:-1;
     float:right;
-    height:300px;
-    width:400px;
     margin-top:300px;
 }
 .img-ill3{float:left;
@@ -207,7 +204,10 @@ margin-top:40px;
     
 }
 
-
+.bodyevents{
+    background-color: #f2f2f2;
+    
+}
 
 
 
