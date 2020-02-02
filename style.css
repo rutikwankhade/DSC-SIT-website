@@ -31,7 +31,6 @@ h2{
     margin-top:300px;
 }
 .back{background-color:#f2f2f2;}
-
 .dsclogo{
     margin-top:80px;
     margin-left:45px;
@@ -42,19 +41,7 @@ h2{
     }
 
 a{color: #00b359}
-
-.footer{
-    margin-top:35px;
-    float:left;
-}
-.block1{
-    padding:20px;
-    height:auto;
-    width:auto;
-    margin:auto;
-}
 .wave{z-index:-1;}
-
 .boxes{
     position:relative;
     display:flex;
@@ -73,48 +60,28 @@ a{color: #00b359}
     background-color: #ffff;
     box-shadow:  #005ce6 5px 5px;
 }
-
 .background{
     background-color: #0099ff;
     height:auto;
-}
-
-footer{
-    height:50px;
-    background-color: #333333;
-    color:#ffff;
-    font-size:13px;
-    margin-top:300px;
-
-    
-}
-.credits{
-    margin-top:20px;
-    padding:10px;
-    text-align: center;
 }
 .tech{
     height:90px;
     width:90px;
     margin-left:13px;
 }
-
 span{
     display:inline-block;
     text-align:center;
     font-size:13px;
     margin-left:20px;
-
 }
 .box:hover{
     transform:scale(1.1) ;
 }
-
-  h3{
+h3{
       margin-left:100px;
       margin-top:35px;
   }  
-
 .member{
     height:160px;
     width:140px;
@@ -128,31 +95,13 @@ span{
     width:100px;
     margin-left:16px;
 }
-.icons{
-
-    margin-left:5px;
-    
-}
+.icons{ margin-left:5px;}
 .allicons{
     display:inline-block;
     margin-left:25px;
 }
-
-
-.img-ill3{float:left;
-height:300px;
-width:400px;
-margin-top:40px;
-}
-
-.space{
-    height:200px;
-}
-.about{
-    margin:100px 0px 0px 100px;
-
-}
-
+.space{ height:200px;}
+.about{margin:100px 0px 0px 100px;}
 .logo2{
     height:100px;
     width:200px;
@@ -163,15 +112,12 @@ margin-top:40px;
     width:80px;
     margin-top:20px;
 }
-
 .events{
     display:flex;
     flex-direction: column;
     float:center;
     margin:auto;
     max-width:600px;
-
-    
 }
 .event{
     height:180px;
@@ -181,50 +127,39 @@ margin-top:40px;
     border-radius:5px;
     box-shadow:#cce0ff 5px 5px 10px;
     padding:20px;
-    
+    }
+footer{
+    height:50px;
+    background-color: #333333;
+    color:#ffff;
+    font-size:13px;
+    margin-top:300px;
 }
-
-.bodyevents{
-    background-color: #f2f2f2;
-    
+.credits{
+    margin-top:20px;
+    padding:10px;
+    text-align: center;
 }
+.bodyevents{background-color: #f2f2f2;}
 
 
 
-
-
-
-
-
-
-
-    @media screen and (max-width: 500px){
-        
+ @media screen and (max-width: 500px){
         .dsclogo1{
             display: block;
             margin-left: auto;
             margin-right: auto;
-            
-          }
-
-
+            }
         .boxes{
             margin-left:auto;
             margin-right:auto;
             max-width:400px;
         }
-        .about{
-            margin:45px 20px 20px 20px;
-        }
-        footer{
-            margin-top:700px;
-        }
-        .events{
-            max-width:350px;
-
-        }
+        .about{margin:45px 20px 20px 20px;}
+        footer{margin-top:700px;}
+        .events{max-width:350px;}
         .event{max-width:350px; }
-        .navlinks{margin-right:150px;
-            
-        }
+        .navlinks{margin-right:150px; }
+  
+  
     }
