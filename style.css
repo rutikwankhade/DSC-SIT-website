@@ -142,38 +142,26 @@ footer{
 }
 .bodyevents{background-color: #f2f2f2;}
 
-
-
- @media screen and (max-width: 400px){
+@media screen and (max-width: 400px){
         .card{margin:35px 25px 25px 25px;
         padding:35px;
         }
     .team{margin-left:40px;
     text-align:center;}
-    
     .dsclogo1{
             display: block;
             margin-left:20px;
             margin-right: auto;
             }
-        .boxes{
-            margin-left:25px;
-            margin-right:auto;
-            max-width:500px;
-        }
+        .boxes{max-width:500px; }
         .about{margin:45px 20px 20px 20px;
         padding:25px;}
         footer{margin-top:700px;}
         .navlinks{margin-right:150px; }
-  .event{max-width:300px;
-margin-left:50px;}
-        }
-
-    @media screen and (max-width: 300px){
-
-    .boxes{
-        margin-left:0px;
-        padding:5px;
-        max-width:500px;
+         .event{max-width:330px;
+        margin-left:10px;
     }
-}
+    
+    }
+
+   
