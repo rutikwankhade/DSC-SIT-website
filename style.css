@@ -144,12 +144,12 @@ footer{
 
 
 
- @media screen and (max-width: 500px){
+ @media screen and (max-width: 400px){
         .card{margin:35px 25px 25px 25px;
         padding:35px;
         }
-    .team{margin:40px;
-    text-align: center;}
+    .team{margin-left:40px;
+    text-align:center;}
     
     .dsclogo1{
             display: block;
@@ -159,14 +159,21 @@ footer{
         .boxes{
             margin-left:25px;
             margin-right:auto;
-            max-width:400px;
+            max-width:500px;
         }
         .about{margin:45px 20px 20px 20px;
         padding:25px;}
         footer{margin-top:700px;}
-        .events{max-width:350px;}
-        .event{max-width:350px; 
-        padding:10px;}
         .navlinks{margin-right:150px; }
-  
+  .event{max-width:300px;
+margin-left:50px;}
+        }
+
+    @media screen and (max-width: 300px){
+
+    .boxes{
+        margin-left:0px;
+        padding:5px;
+        max-width:500px;
     }
+}
