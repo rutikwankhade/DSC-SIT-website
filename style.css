@@ -129,14 +129,15 @@ h3{
     padding:20px;
     }
 footer{
-    height:50px;
+    height:200px;
     background-color: #333333;
     color:#ffff;
-    font-size:13px;
-    margin-top:300px;
+    font-size:10px;
+    /* margin-top:300px; */
+    float:bottom;
 }
 .credits{
-    margin-top:20px;
+    margin-top:250px;
     padding:10px;
     text-align: center;
 }
