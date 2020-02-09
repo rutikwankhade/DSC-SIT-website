@@ -132,37 +132,36 @@ footer{
     height:200px;
     background-color: #333333;
     color:#ffff;
-    font-size:10px;
+    font-size:12px;
     /* margin-top:300px; */
-    float:bottom;
-}
+    }
 .credits{
-    margin-top:250px;
-    padding:10px;
+     margin-top:250px;
+    padding:20px;
     text-align: center;
 }
 .bodyevents{background-color: #f2f2f2;}
-
-@media screen and (max-width: 400px){
-        .card{margin:35px 25px 25px 25px;
-        padding:35px;
-        }
-    .team{margin-left:40px;
-    text-align:center;}
-    .dsclogo1{
-            display: block;
-            margin-left:20px;
-            margin-right: auto;
-            }
-        .boxes{max-width:500px; }
-        .about{margin:45px 20px 20px 20px;
-        padding:25px;}
-        footer{margin-top:700px;}
-        .navlinks{margin-right:150px; }
-         .event{max-width:330px;
-        margin-left:10px;
-    }
-    
-    }
+.learn{margin-top:5px;
+}
+.center{margin:auto;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+.card{margin:35px 25px 25px 25px;
+     padding:35px; }
+.team{margin-left:40px;
+      text-align:center;}
+.dsclogo{display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;}
+.boxes{max-width:500px; }
+.about{margin:45px 20px 20px 20px;
+       padding:25px;}
+footer{margin-top:700px;}
+.navlinks{margin-right:150px; }
+.event{max-width:330px;
+       margin-left:10px;}
+}
 
    
