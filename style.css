@@ -146,6 +146,10 @@ footer{
 .center{margin:auto;
     text-align: center;
 }
+li:hover {
+    background-color:#e6e6e6;
+    border-radius:5px;
+}
 @media screen and (max-width: 500px){
 .card{margin:35px 25px 25px 25px;
      padding:35px; }
@@ -162,6 +166,7 @@ footer{margin-top:700px;}
 .navlinks{margin-right:150px; }
 .event{max-width:330px;
        margin-left:10px;}
+       
 }
 
    
