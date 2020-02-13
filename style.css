@@ -113,6 +113,7 @@ h3{
 .mentors{margin-left:100px;
     z-index:1;
     }
+    .ment{margin-left:100px;}
 .logo2{
     height:100px;
     width:200px;
@@ -202,7 +203,8 @@ width:100px;}
         margin-left: auto;
         margin-right: auto;
         width: 45%;}
-.boxes{max-width:500px; }
+.boxes{
+margin:auto;}
 .about{margin:45px 20px 0px 20px;
        padding:25px;}
        
@@ -211,13 +213,15 @@ footer{margin-top:700px;}
 .eve{display:none;}
 .event{margin:15px;}
     .hod1, .hod{margin:auto;}  
-    h5{text-align: center;}
-    .h5m{text-align: center;
-    margin: 30px;
-}
+    
 .imglogo{margin:auto;
 }
-.btn1{margin-left:40%;}
+.btn1{margin:auto;}
+.member{margin:10px auto auto auto;}
+.logo2{margin:auto;}
+.logo3{margin:auto;}
+.ment{margin-top:50px;
+}
 }
 
    
