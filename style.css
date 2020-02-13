@@ -101,8 +101,11 @@ h3{
     width:100px;
     margin-left:16px;
     border-radius:50%;
+    border:solid 4px #f2f2f2;
 }
-.icons{ margin-left:5px;}
+.icons{ margin-left:5px;
+height:18px;
+width:18px;}
 .allicons{
     display:inline-block;
     margin-left:25px;
