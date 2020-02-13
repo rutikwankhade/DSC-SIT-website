@@ -90,7 +90,7 @@ h3{
 .member{
     height:160px;
     width:140px;
-    /* background-color: #f2f2f2; */
+    /* background-color: #ffffff;  */
     padding:5px;
     margin:20px;
     border-radius:5px;
@@ -166,9 +166,7 @@ li:hover {
     border-radius:5px;
 }
 .staff{ height:160px;
-    width:140px;
-   
- }
+    width:140px;}
 .eve{height:100px;
 width:100px;}
 .date{font-size: 11px;}
@@ -192,7 +190,7 @@ width:100px;}
         flex-direction: row;
         max-width:1100px; 
         }
-        .btn1{margin-left:30px;}
+        .btn1{margin:0px 0px 0px 30px;}
 
 @media screen and (max-width: 500px){
 .card{margin:35px 25px 25px 25px;
@@ -212,16 +210,14 @@ footer{margin-top:700px;}
 .navlinks{margin-right:150px; }
 .eve{display:none;}
 .event{margin:15px;}
-    .hod1, .hod{margin:auto;}  
-    
-.imglogo{margin:auto;
-}
-.btn1{margin:auto;}
+.hod1, .hod{margin:auto;}  
 .member{margin:10px auto auto auto;}
-.logo2{margin:auto;}
-.logo3{margin:auto;}
+.logo2{display:none;}
+.logo3{display:none;}
 .ment{margin-top:50px;
+display:flex;
 }
+
 }
 
    
