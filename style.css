@@ -116,7 +116,7 @@ width:18px;}
     max-width:600px;
     margin-left:450px;
 }
-h6{font-size: 10px;
+h6{
 color:#333333;
 text-align: center;}
 .event{
@@ -140,10 +140,10 @@ footer{
     text-align: center;
 }
 .bodyevents{
-background-image: url("images/Screenshot\ \(76\).webp");
+background-image: url("images/events_banner.svg");
 background:cover;
-background-repeat: no-repeat;}
-
+background-repeat: no-repeat;
+}
 .center{margin:auto;
     text-align: center;
 }
