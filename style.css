@@ -124,7 +124,7 @@ text-align: center;}
     background-color: #ffffff;
     margin:40px 40px 0px 0px;
     border-radius:5px;
-    box-shadow:#cce0ff 5px 5px 10px;
+    border:solid 4px #f2f2f2;
     padding:20px;
     }
 footer{
@@ -132,14 +132,14 @@ footer{
     background-color: #333333;
     color:#ffff;
     font-size:12px;
-    /* margin-top:300px; */
     }
 .credits{
-     margin-top:250px;
+    margin-top:250px;
     padding:20px;
     text-align: center;
 }
-.bodyevents{background-color: #f2f2f2;}
+.bodyevents{
+background-image: url("images/events_banner.svg");}
 
 .center{margin:auto;
     text-align: center;
