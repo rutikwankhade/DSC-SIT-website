@@ -1,4 +1,4 @@
-.logo{
+.navlogo{
     height:30px;
     width:60px;
     margin:0px 5px 0px 30px;
@@ -222,6 +222,7 @@ footer{margin-top:700px;}
 display:flex;
 margin-left:130px;
 }
+.btn1{display:none;}
 
 }
 
