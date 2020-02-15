@@ -21,15 +21,6 @@ h2{
     border-radius:5px;
     box-shadow:#f2f2f2 5px 10px 10px;
 }
-.img-ill{
-    float:right;
-    z-index:-1;
-    height:300px;
-    width:600px;
-    margin-top:100px;
-    
-    
-   }
 .img-ill2{
     position: absolute;
     z-index:-1;
@@ -41,12 +32,7 @@ h2{
     margin-top:80px;
     margin-left:45px;
    }
-.blue{
-      color:#1a75ff;
-      font-size:20px;
-    }
-
-a{color: #00b359}
+.blue{color:#1a75ff;font-size:20px;}
 .wave{z-index:-1;}
 .boxes{
     position:relative;
@@ -64,7 +50,7 @@ a{color: #00b359}
     border-radius:5px;
     padding:10px;
     background-color: #ffff;
-    box-shadow:  #005ce6 5px 5px;
+    box-shadow:  #005ce6 8px 8px;
 }
 .background{
     background-color: #0099ff;
@@ -73,19 +59,13 @@ a{color: #00b359}
 .tech{
     height:90px;
     width:90px;
-    margin-left:13px;
+    margin-left:12px;
 }
-span{
-    
-    font-size:13px;
-    margin-left:20px;
-}
-.box:hover{
-    transform:scale(1.1) ;
-}
+span{font-size:13px; margin-left:20px;}
+.box:hover{transform:scale(1.1);}
 h3{
-      margin-left:100px;
-      margin-top:35px;
+  margin-left:100px;
+  margin-top:35px;
   }  
 .member{
     height:160px;
@@ -109,7 +89,8 @@ width:18px;}
     display:inline-block;
     margin-left:25px;
 }
-.space{ height:200px;}
+.cards{margin-left: 75px;}
+.space{ height:100px;}
 .about{margin:100px 0px 0px 100px;
     max-width:600px;
 }
@@ -159,8 +140,7 @@ footer{
     text-align: center;
 }
 .bodyevents{background-color: #f2f2f2;}
-.learn{margin-top:5px;
-}
+
 .center{margin:auto;
     text-align: center;
 }
@@ -223,7 +203,7 @@ display:flex;
 margin-left:130px;
 }
 .btn1{display:none;}
-
+.cards{margin-left:0px;}
 }
 
    
