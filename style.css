@@ -67,6 +67,7 @@ h3{
   margin-left:100px;
   margin-top:35px;
   }  
+  .team{margin-left:170px;}
 .member{
     height:160px;
     width:140px;
@@ -98,7 +99,6 @@ width:18px;}
     float:center;
     margin:auto;
     max-width:600px;
-    margin-left:450px;
 }
 h6{
 color:#333333;
@@ -109,7 +109,8 @@ text-align: center;}
     background-color: #ffffff;
     margin:40px 40px 0px 0px;
     border-radius:5px;
-    border:solid 4px #f2f2f2;
+    box-shadow:#ccccff 5px 5px 5px;
+
     padding:20px;
     }
 footer{
@@ -123,18 +124,9 @@ footer{
     padding:20px;
     text-align: center;
 }
-.bodyevents{
-background-image: url("images/events_banner.svg");
-background:cover;
-background-repeat: no-repeat;
-}
-.center{margin:auto;
-    text-align: center;
-}
-li:hover {
-    background-color:#e6e6e6;
-    border-radius:5px;
-}
+.bodyevents{background-color: #f2f2f2;}
+.center{margin:auto;text-align: center;}
+li:hover {background-color:#e6e6e6; border-radius:5px;}
 .eve{height:100px; width:100px;}
 .date{font-size: 11px;}
 .flexbox{
@@ -144,9 +136,11 @@ li:hover {
     flex-direction: row;
   }
 .logos{margin:150px 0px 0px 50px;}
-.mentors-text{margin-left:100px;
-margin-top:20px;}
-
+.mentors-text{margin-left:100px; margin-top:20px;}
+.contact{width:400px;margin-top:50px;
+margin-left:500px; margin-right:500px;}
+.post{font-size: 12px; font-family: arial;
+text-align: center; color:#00994d; font-weight: bolder;}
 @media screen and (max-width: 500px){
 .card{margin:35px 25px 25px 25px; padding:35px; }
 .team{margin:auto; text-align:center;}
@@ -164,10 +158,10 @@ footer{margin-top:700px;}
 .member{margin:10px auto auto auto;}
 .events{margin: 0px;}
 .cards{margin-left:0px;}
-.bodyevents{background-repeat: repeat-y;}
 .logos{margin:0px 0px 20px 0px;}
-.mentors-text{ text-align: center; margin:auto;
-}
+.mentors-text{ text-align: center; margin:auto;}
+.contact{margin-top:80px; width:auto;}
+
 }
 
    
