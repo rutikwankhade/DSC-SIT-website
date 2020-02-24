@@ -102,7 +102,8 @@ width:18px;}
 }
 h6{
 color:#333333;
-text-align: center;}
+text-align: center;
+line-height: 5em;}
 .event{
     height:auto;
     width:auto;
@@ -143,6 +144,15 @@ li:hover {background-color:#e6e6e6; border-radius:5px;}
 margin-left:500px; margin-right:500px;}
 .post{font-size: 12px; font-family: arial;
 text-align: center; color:#00994d; font-weight: bolder;}
+
+.role{color:#1a75ff;font-size:13px;
+margin-top:0px;
+margin-left:0px;}
+
+.role2{color:#00cc99;font-size:13px;
+    margin-top:0px;
+    margin-left:0px;}
+
 @media screen and (max-width: 500px){
 .card{margin:35px 25px 25px 25px; padding:35px; }
 .team{margin:auto; text-align:center;}
@@ -157,11 +167,12 @@ footer{margin-top:700px;}
 .eve{display:none;}
 .event{margin:15px;}
 .hod1, .hod{margin:auto;}  
-.member{margin:10px auto auto auto;}
+.member{margin:10px auto 15px auto;}
 .events{margin: 0px;}
 .cards{margin-left:0px;}
 .logos{margin:0px 0px 20px 0px;}
-.mentors-text{ text-align: center; margin:auto;}
+.mentors-text{ text-align: center; margin:auto;
+margin-bottom:30px;margin-top:15px;}
 .contact{margin-top:80px; width:auto;}
 
 }
