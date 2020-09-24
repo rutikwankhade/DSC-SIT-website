@@ -14,12 +14,14 @@ h2{
     font-size:40px;
     color:#443662;
 }
-.card{
+.card1{
     padding:50px;
     margin:45px 45px 15px 45px;
     float:left;
-    border-radius:5px;
-    box-shadow:#f2f2f2 5px 10px 10px;
+    border-radius:15px;
+    box-shadow:#f2f2f2 10px 10px 10px;
+    background-color: #ffffff;
+    border: 2px solid #f2f2f2;
 }
 .img-ill2{
     position: absolute;
@@ -53,7 +55,7 @@ h2{
     box-shadow:  #005ce6 8px 8px;
 }
 .background{
-    background-color: #0099ff;
+    background-color: #3366ff;
     height:auto;
 }
 .tech{
@@ -115,10 +117,11 @@ line-height: 5em;}
     padding:20px;
     }
 footer{
+    bottom:0;
     height:auto;
-    background-color: #333333;
+    background-color:#282a36;
     color:#ffff;
-    font-size:12px;
+    font-size:14px;
     }
 .credits{
     margin-top:250px;
@@ -144,7 +147,7 @@ li:hover {background-color:#e6e6e6; border-radius:5px;}
 margin-left:500px; margin-right:500px;}
 .post{font-size: 12px; font-family: arial;
 text-align: center; color:#00994d; font-weight: bolder;}
-
+i{margin:5px;}
 .role{color:#1a75ff;font-size:13px;
 margin-top:0px;
 margin-left:0px;}
@@ -152,8 +155,9 @@ margin-left:0px;}
 .role2{color:#1a75ff;font-size:13px;
     margin-top:0px;
     margin-left:0px;}
+    
 @media screen and (max-width: 500px){
-.card{margin:35px 25px 25px 25px; padding:35px; }
+.card1{margin:35px 25px 25px 25px; padding:35px; }
 .team{margin:auto; text-align:center;}
 .dsclogo{display: block;
         margin-left: auto;
