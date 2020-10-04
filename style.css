@@ -99,7 +99,14 @@ h3{
 }
 .icons{ margin-left:5px;
 height:18px;
-width:18px;}
+width:18px;
+opacity:0.7;
+}
+iframe{
+margin:20px;
+width:700px;
+height:400px;
+}
 .allicons{display:inline-block; margin-left:25px;}
 .cards{margin-left: 75px;}
 .space{ height:100px;}
