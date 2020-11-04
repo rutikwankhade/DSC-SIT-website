@@ -30,6 +30,15 @@ h2{
     transform:scale(1.05)
 
 }
+
+
+.video{
+    width:500px;
+    height:300px;
+    margin-top:80px;
+    margin-right:40px;
+
+}
 .img-ill2{
     position: absolute;
     z-index:-1;
@@ -210,6 +219,15 @@ margin-bottom:30px;margin-top:15px;}
 .contact{margin-top:80px; width:auto;}
 .main-el{display:flex;
 flex-direction:column;}
+
+
+.video{
+    width:300px;
+    height:200px;
+    margin-top:40px;
+    margin-right:0px;
+
+}
 }
 
    
